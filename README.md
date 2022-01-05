@@ -1,4 +1,4 @@
-Password Genie
+# Password Genie
 
 [Launch Password Generator](https://donl44.github.io/Password-Generator/)
 
