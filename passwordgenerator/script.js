@@ -11,16 +11,16 @@ var specialCheck;
 
 //Function used to determine the length of the password
 function determineLength(){
-  passwordLength = prompt("How many characters long will your password be (between 8-15 characters): ");
+  passwordLength = prompt("How long will your password be (between 8-15 characters): ");
 
     if (passwordLength<8){
-      alert("Password length must be a number between 8-15 characters");
+      alert("Password length must be between 8-15 characters");
       determineLength();
     }else if (passwordLength>15){
-      alert("Password length must be a number between 8-15 characters");
+      alert("Password length must be between 8-15 characters");
       determineLength();
     }else if (isNaN(passwordLength)){
-      alert("Password length must be a number between 8-15 characters");
+      alert("Password length must be between 8-15 characters");
       determineLength();
     }else{
     alert("The next three prompts will ask what types of characters you would like to be included in your password.\nIf you choose 'No' for all, your password will only contain lowercase letters.");
@@ -78,7 +78,7 @@ function determineNumbers(){
 
 //Function used to determine whether the user wants to include special characters in the password
 function determineSpecial(){
-  specialCheck = prompt("Will your password include special characters? \n(Yes or No)");
+  specialCheck = prompt("Will your password include special characters? Ex:!,@,$,@, etc \n(Yes or No)");
     specialCheck = specialCheck.toLowerCase();
 
     if (specialCheck === null || specialCheck === ""){
