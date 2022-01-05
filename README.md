@@ -1,4 +1,4 @@
-# 03 JavaScript: Password Generator
+Password Genie
 
 [Launch Password Generator](https://donl44.github.io/Password-Generator/)
 
