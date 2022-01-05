@@ -78,7 +78,7 @@ function determineNumbers(){
 
 //Function used to determine whether the user wants to include special characters in the password
 function determineSpecial(){
-  specialCheck = prompt("Will your password include special characters? Example:!,@,$,@, etc. \n(Yes or No)");
+  specialCheck = prompt("Will your password include special characters? Example: !, @, $, @, . . . \n(Yes or No)");
     specialCheck = specialCheck.toLowerCase();
 
     if (specialCheck === null || specialCheck === ""){
